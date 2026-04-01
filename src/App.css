@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  width: 140px;
+  width: 160px;
   height: auto;
   margin-bottom: 22px;
 }
@@ -37,6 +37,29 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 14px;
+}
+
+.phone-line {
+  margin-bottom: 10px;
+}
+
+.phone-link {
+  color: #e8d5a3;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.phone-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.phone-link .fa-phone {
+  margin-right: 8px;
+  font-size: 16px;
+  opacity: 0.9;
 }
 
 .arrows {
@@ -153,6 +176,29 @@ body {
   margin-bottom: 26px;
 }
 
+.footer-contact {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.footer-phone,
+.footer-site {
+  color: #f5c542;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-phone:hover,
+.footer-site:hover {
+  text-decoration: underline;
+  color: #ffe08a;
+}
+
+.footer-sep {
+  color: #5a6b7d;
+}
+
 .footer-text {
   font-size: 13px;
   color: #9fb3c8;
@@ -170,15 +216,29 @@ body {
 /* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
   .logo {
-    width: 110px;
+    width: 130px;
   }
 
   .top-cta h1 {
     font-size: 22px;
   }
 
+  .phone-link {
+    font-size: 16px;
+  }
+
   .whatsapp-cta {
     font-size: 17px;
     padding: 16px 34px;
+  }
+
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .footer-sep {
+    display: none;
   }
 }
