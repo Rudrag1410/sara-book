@@ -1,9 +1,9 @@
 import './App.css'
 
-const PHONE_DISPLAY = '+91 84474 91250'
-const PHONE_E164 = '918447491250'
+const PHONE_DISPLAY = '+91 62009 02909'
+const PHONE_E164 = '916200902909'
 const WHATSAPP_URL = `https://api.whatsapp.com/send/?phone=${PHONE_E164}&text=${encodeURIComponent('Hi, I want ID')}&type=phone_number&app_absent=0`
-const TEL_HREF = `tel:+918447491250`
+const TEL_HREF = `tel:+916200902909`
 
 function App() {
   return (
